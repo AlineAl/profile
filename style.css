@@ -1,0 +1,141 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+
+body {
+    background-color: #e7dfd5;
+    font-family: 'Oswald', sans-serif;
+    color: #3b6978;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #204051;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 32px
+}
+
+h2 {
+    font-size: 14px
+}
+
+a {
+   color: #84a9ac;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #204051;
+}
+
+.a-btn {
+    color: #204051;
+}
+
+.a-btn:hover {
+    color:#3b6978;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.card {
+    text-align: center;
+    background: #84a9ac;
+    padding: 26px;
+    border: 1px solid #fbecec;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    padding-bottom: 48px;
+}
+
+#card-logo {
+    border-radius: 50%;
+    margin-top: 16px;
+}
+
+#card-home {
+    border: 5px solid lightgrey;
+}
+
+.wrapper {
+    background-image: url("images/arbre_cerisier.png");
+    background-size: cover;
+    margin: 0 auto;
+    height: 1100px;
+    max-width: 100%;
+}
+
+#img-profil {
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+#img-profil:hover {
+    border: 1px solid lightgrey;
+}
+
+.img-souris {
+    margin: 20px 990px;
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+}
+
+.white-taille-emoticon {
+    color: lightgrey;
+    width: 16px;
+}
+
+.btn-bleu {
+    background-color: #204051;
+    border: 1px solid #3b6978;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.btn-bleu:hover {
+   background-color: #84a9ac;
+   border: 1px solid lightgrey;
+}
+
+.list-inline {
+    display: inline-block;
+    margin: 32px;
+    text-align: center;
+    font-size: 32px;
+}
+
+span {
+    font-size: 28px;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
